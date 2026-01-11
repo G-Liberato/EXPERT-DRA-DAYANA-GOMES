@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { EXPERT_DATA, IMAGES } from './constants';
-import WhatsAppButton from './components/WhatsAppButton';
-import Gallery from './components/Gallery';
+import { EXPERT_DATA, IMAGES } from './constants.ts';
+import WhatsAppButton from './components/WhatsAppButton.tsx';
+import Gallery from './components/Gallery.tsx';
 
 const App: React.FC = () => {
   return (
